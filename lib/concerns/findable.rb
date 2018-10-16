@@ -1,6 +1,6 @@
 module Findable 
   
-  def self.find_by_name
+  def find_by_name
     self.all.detect {|a| a.name == name}
   end
   
