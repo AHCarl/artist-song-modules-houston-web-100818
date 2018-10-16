@@ -3,7 +3,7 @@ module Memorable
   require_relative '../song.rb'
   
   def self.reset_all
-    self.all.clearn
+    self.all.clear
   end
   
   def self.count
