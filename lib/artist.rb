@@ -1,6 +1,6 @@
 require 'pry'
-require_relative "concerns/memorable.rb"
-require_relative "concerns/findable.rb"
+require_relative "/concerns/memorable.rb"
+require_relative "/concerns/findable.rb"
 
 class Artist extend Memorable, Findable
   attr_accessor :name
